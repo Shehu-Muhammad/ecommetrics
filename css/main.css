@@ -1,5 +1,477 @@
 /* Created by Shehu Muhammad on Wednesday, August 3, 2022 */
+/* cleared all margin and padding from html */
+* {
+    margin: 0;
+    padding: 0;
+}
 
+/* set body default font-family to 'Poppins' and 'sans-serif' if browsers can't find 'Poppins' links */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styled for header- set background color, height, and added some padding to the top */
+header {
+    background-color: aliceblue;
+    height: 860px;
+    padding-top: 45px;
+} 
+
+/* styled the id named sectionTwo with a background color and increased height */
+#sectionTwo {
+    background-color: white;
+    height: 1550px;
+}
+
+/* added styles to footer - background image, styled background image by not repeating it and setting the size to cover to fill the footer, made text color white, and set height */
+footer {
+    /* background-color: black; */
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+
+/* styled h1 elements - display, font-size, added some margin to the right, increased the font-weight, and changed color */
+h1 {
+    display: inline;
+    font-size: 25px;
+    margin-right: 55px;
+    font-weight: 800;
+    color: #146ff8;
+}
+
+/* styled h3 elements - used the border to visually move the element to adjust width, margin, font-size, added some letter spacing and padding, commented border out after finished styling */
+h3 {
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 13% auto;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    line-height: 90px;
+}
+
+/* set nav elements to display inline */
+nav {
+    display: inline;
+}
+
+/* set nav element uls to display inline */
+nav ul {
+    display: inline;
+}
+
+/* set lis nested inside of navs and inside uls to display inline and added some margin to the right */
+nav > ul > li {
+    display: inline;
+    margin-right: 18px;
+}
+
+/* styled anchor elements that are inside nav, inside ul, and inside li */
+nav ul li a {
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* styled anchor elements with id quote */
+a#quote {
+    margin-left: 500px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    background-color: #146ff8;
+    color: white;
+    font-size: 23px;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+}
+
+/* styled spans with id named brand */
+span#brand {
+    border: 9px solid #146ff8;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-right: 15px;
+    position: relative;
+    top: 13px;
+}
+
+/* styled id named crood-chart */
+#crood-chart {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+/* set the position of div with id navigation */
+div#navigation {
+    position: absolute;
+    margin-left: 12%;
+    top: 60px;
+    /* border: 1px solid green; */
+}
+
+/* set the width of class contentWrap */
+.contentWrap {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+/* styled id named analytics - set width, margin-top, font-size, margin-left, letter-spacing, and font-weight */
+#analytics {
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-top: 100px;
+    font-size: 36px;
+    margin-left: 180px;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+/* styled id named analytics-paragraph - set width, font-size, margin-top, letter-spacing, used border to visually see where it was on the page and commented out after I finished */
+#analytics-paragraph {
+    /* border: 1px solid green; */
+    width: 80%;
+    font-size: 25px;
+    margin-top: 30px;
+    letter-spacing: normal;
+    /* line-height: 30px; */
+}
+
+/* styled id named slideshow - set width, added some margin to the left, set position, set top, set height, set background color, added a box shadow, added a border-radius */
+#slideshow {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    position: absolute;
+    top: 700px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+    border-radius: 5px;
+}
+
+/* styled h2 inside a div with an id named slideshow */
+div#slideshow > h2 {
+    /* border: 1px solid green; */
+    width: 560px;
+    text-align: center;
+    margin: 45px auto;
+    font-weight: normal;
+}
+
+/* styled id named arrows -set width, margin, height */
+#arrows {
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    height: 230px;
+}
+
+/* added hover to spans with arrow-back or arrow-forward class to change the cursor to a pointer*/
+span.arrow-back:hover, span.arrow-forward:hover {
+    cursor: pointer;
+}
+
+/* styled spans with class named arrow-back */
+span.arrow-back {
+    position: inherit;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* styled spans with class named arrow-forward */
+span.arrow-forward {
+    position: inherit;
+    margin-top: 30px; 
+    float: right;
+}
+
+/* styled all figures with for ids named fig1, fig2, fig3, fig4, and fig5 */
+figure#fig1, figure#fig2, figure#fig3, figure#fig4, figure#fig5 {
+    position: absolute;
+    left: 14%;
+    top: 30%;
+}
+
+/* adjusted left for figure with id named fig2 */
+figure#fig2 {
+    left: 30%;
+}
+
+/* adjusted left for figure with id named fig3 */
+figure#fig3 {
+    left: 46%;
+}
+
+/* adjusted left for figure with id named fig4 */
+figure#fig4 {
+    left: 62%;
+}
+
+/* adjusted left for figure with id named fig5 */
+figure#fig5 {
+    left: 78%;
+}
+
+/* styled spans with class stars - set display, color, font-size, and text-align */
+span.stars {
+    display: block;
+    color: #146ff8;
+    font-size: 25px;
+    text-align: center;
+    /* padding-right: 30px; */
+}
+
+/* styled images with class named reviews and are inside a span tag */
+span > img.reviews {
+    display: block;
+    width: 130px;
+}
+
+/* styled all images with a class named person */
+img.person {
+    width: 130px;
+    height: 130px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* styled image with an id named curved-arrow */
+img#curved-arrow {
+    width: 550px;
+    margin-left: 35%;
+    /* border: 1px solid black; */
+}
+
+/* styled figcaption - set text align to center and added some padding to the bottom */
+figcaption {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* styled for classes named data - set border, added border-radius, added padding on all sides, set background color, added some margin to the bottom, and added some margin to the top */
+.data {
+    border: 1px solid #146ff8;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #146ff8;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+/* styled h4s - set font-size, set font-weight, and added some margin to the bottom */
+h4 {
+    font-weight: normal;
+    margin-bottom: 20px;
+} 
+
+/* styled p elements with class named h4-paragraph */
+p.h4-paragraph {
+    margin-bottom: 45px;
+}
+
+/* styled id named h4-data */
+#h4-data {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+/* styled ids named h4-data1, h4-data2, h4-data3 - set background color, added border radius, set width, added some margin to the left, set font-size, added some padding, set height, and set display */
+#h4-data1, #h4-data2, #h4-data3 {
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 20%;
+    margin-left: 4%;
+    font-size: 20px;
+    padding: 30px;
+    height: 90%;
+    display: inline-block;
+}
+
+/* styled id named h4-data1 - set margin-left to 0*/
+#h4-data1 {
+    margin-left: 0;
+}
+
+/* styled button element - set font-size, added some padding, set background color, set text color, and removed border on button */
+button {
+    font-size: 20px;
+    padding: 10px 25px 10px 25px;
+    background-color: #146ff8;
+    color: white;
+    border: none;
+}
+
+/* changed cursor when hovering over button */
+button:hover {
+    cursor: pointer;
+}
+
+/* styled id named form */
+#form {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: 3% auto;
+    margin-left: 320px;
+}
+
+/* styled h5s - set font-size, set font-weight, set text-align */
+h5 {
+    font-size: 60px;
+    font-weight: normal;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 35%;
+    padding: 50px 0px;
+}
+
+/* styled form element - set width, set margin, added some padding to the left, and set the height */
+form {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 16px auto;
+    padding-left: 300px;
+    height: 200px;
+}
+
+/* styled input elements with type set to text - set width, set height, added some margin to the bottom, added some margin to the right, set font-size, added border radius, added some padding */
+input[type="text"] {
+    width: 30%;
+    height: 20%;
+    margin-bottom: 50px;
+    margin-right: 60px;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* styled placed holders for input type set to text - added some padding to the left */
+input[type="text"]::placeholder {
+    padding-left: 12px;
+}
+
+/* styled id named send - set width, set height, added some padding, added border-radius, set font-size */
+#send {
+    width: calc(30% + 26px);
+    height: 30%;
+    padding: 10px;
+    /* border: 4px solid blue; */
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+/* styled id named send when hovering over it - set cursor to pointer, set background color, set text color, set border */
+#send:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #146ff8;
+    border: 5px solid #146ff8;
+}
+
+/* Shehu did this before he got the assets - He tried to create the curved arrow */
+/* #curved-arrow {
+    position: absolute;
+    top: 2480px;
+    left: 900px;
+    font-size: 150px;
+    transform: scaleX(4.5);
+} */
+
+/* styled left side of the footer using id named footer-left, set width, added margin, floated it to the left, added some padding, set font size */
+#footer-left {
+    /* border: 1px solid white; */
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    padding: 5px 30px 30px 30px;
+    margin-left: 15%;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+/* style the paragraph inside of id named footer-left, set line-height, added some letter spacing, added some margin to the bottom */
+#footer-left > p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+/* styled id named footer-right, set width, floated it to the right, set margin-top, set margin-bottom, added some padding, set font-size */
+#footer-right {
+    /* border: 1px solid red; */
+    width: 20%;
+    float: right;
+    margin-top: 213px;
+    margin-right: 15%;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/* styled id named address - added some margin to the bottom */
+#address {
+    margin-bottom: 35px;
+}
+
+/* styled id named email-text, added some margin to the bottom */
+#email-text {
+    margin-bottom: 90px;
+}
+
+/* styled span with id named footer-brand, set border, set width, set height, set display, added border radius, set margin-left, set margin-right, set margin-top, and set position to relative */
+span#footer-brand {
+    border: 9px solid #146ff8;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: -795px;
+    margin-right: 15px;
+    margin-top: 130px;
+    position: relative;
+}
+
+/* styled id named h1-footer, set position to absolute, set left, set bottom */
+#h1-footer {
+    position: relative;
+    left: 65px;
+    top: -73px;
+}
+
+/* styled images with class social icon - set width, added some padding to the right */
+img.social-icon {
+    width: 40px;
+    padding-right: 20px;
+}
+
+/* Shehu used this to create social icons in the footer */
+/* i {
+    font-size: 35px;
+    color: black;
+    margin-right: 30px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+} */
 
 @media screen and (max-width: 1440px) {
     
