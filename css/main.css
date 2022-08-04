@@ -125,6 +125,8 @@ span#brand {
 /* set the position of div with id navigation */
 div#navigation {
     position: absolute;
+    margin-left: 12%;
+    top: 60px;
     /* border: 1px solid green; */
 }
 
@@ -405,7 +407,7 @@ input[type="text"]::placeholder {
     width: 36%;
     margin: 0 auto;
     float: left;
-    padding: 30px;
+    padding: 5px 30px 30px 30px;
     margin-left: 20%;
     margin-top: 200px;
     font-size: 20px;
@@ -423,7 +425,7 @@ input[type="text"]::placeholder {
     /* border: 1px solid red; */
     width: 20%;
     float: right;
-    margin-top: 200px;
+    margin-top: 213px;
     margin-right: 15%;
     padding: 30px;
     font-size: 20px;
@@ -454,9 +456,9 @@ span#footer-brand {
 
 /* styled id named h1-footer, set position to absolute, set left, set bottom */
 #h1-footer {
-    position: absolute;
-    left: 470px;
-    bottom: -1925px;
+    position: relative;
+    left: 60px;
+    top: -73px;
 }
 
 /* styled images with class social icon - set width, added some padding to the right */
