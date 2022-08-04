@@ -1,4 +1,4 @@
-/* Created by Shehu Muhammad on Wednesday, August 3, 2022 */
+/* Created by Shehu Muhammad on Thursday, August 4, 2022 */
 /* cleared all margin and padding from html */
 * {
     margin: 0;
@@ -17,7 +17,7 @@ header {
     padding-top: 45px;
 } 
 
-/* styled the id named sectionTwo with a background color and increased height */
+/* styled the id named sectionTwo with a background color and set height */
 #sectionTwo {
     background-color: white;
     height: 1550px;
@@ -81,7 +81,7 @@ nav ul li a {
     font-weight: 500;
 }
 
-/* styled anchor elements with id quote */
+/* styled anchor element with id quote */
 a#quote {
     margin-left: 500px;
     padding: 15px 30px 15px 30px;
@@ -93,7 +93,7 @@ a#quote {
     /* border: 1px solid red; */
 }
 
-/* styled spans with id named brand */
+/* styled span with id named brand */
 span#brand {
     border: 9px solid #146ff8;
     width: 25px;
@@ -125,7 +125,6 @@ div#navigation {
 /* set the width of class contentWrap */
 .contentWrap {
     width: 100%;
-    /* margin: 0 auto; */
 }
 
 /* styled id named analytics - set width, margin-top, font-size, margin-left, letter-spacing, and font-weight */
@@ -146,13 +145,12 @@ div#navigation {
     font-size: 25px;
     margin-top: 30px;
     letter-spacing: normal;
-    /* line-height: 30px; */
 }
 
 /* styled id named slideshow - set width, added some margin to the left, set position, set top, set height, set background color, added a box shadow, added a border-radius */
 #slideshow {
-    width: 80%;
     /* border: 1px solid red; */
+    width: 80%;
     margin-left: 10%;
     position: absolute;
     top: 700px;
@@ -173,9 +171,9 @@ div#slideshow > h2 {
 
 /* styled id named arrows -set width, margin, height */
 #arrows {
+     /* border: 1px solid red; */
     width: 90%;
     margin: 0 auto;
-    /* border: 1px solid red; */
     height: 230px;
 }
 
@@ -274,7 +272,7 @@ figcaption {
     font-size: 50px;
 }
 
-/* styled h4s - set font-size, set font-weight, and added some margin to the bottom */
+/* styled h4s - set font-weight, and added some margin to the bottom */
 h4 {
     font-weight: normal;
     margin-bottom: 20px;
@@ -287,16 +285,16 @@ p.h4-paragraph {
 
 /* styled id named h4-data */
 #h4-data {
+    /* border: 1px solid red; */
     width: 100%;
     height: 500px;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 /* styled ids named h4-data1, h4-data2, h4-data3 - set background color, added border radius, set width, added some margin to the left, set font-size, added some padding, set height, and set display */
 #h4-data1, #h4-data2, #h4-data3 {
-    background-color: aliceblue;
     /* border: 1px solid black; */
+    background-color: aliceblue;
     border-radius: 5px;
     width: 20%;
     margin-left: 4%;
@@ -306,7 +304,7 @@ p.h4-paragraph {
     display: inline-block;
 }
 
-/* styled id named h4-data1 - set margin-left to 0*/
+/* styled id named h4-data1 - set margin-left to 0 */
 #h4-data1 {
     margin-left: 0;
 }
@@ -333,11 +331,11 @@ button:hover {
     margin-left: 320px;
 }
 
-/* styled h5s - set font-size, set font-weight, set text-align */
+/* styled h5s - set font-size, set font-weight, set text-align, added some margin to the left, added some padding */
 h5 {
+    /* border: 1px solid black; */
     font-size: 60px;
     font-weight: normal;
-    /* border: 1px solid black; */
     text-align: center;
     margin-left: 35%;
     padding: 50px 0px;
@@ -370,10 +368,10 @@ input[type="text"]::placeholder {
 
 /* styled id named send - set width, set height, added some padding, added border-radius, set font-size */
 #send {
+    /* border: 4px solid blue; */
     width: calc(30% + 26px);
     height: 30%;
     padding: 10px;
-    /* border: 4px solid blue; */
     border-radius: 5px;
     font-size: 30px;
 }
@@ -414,7 +412,7 @@ input[type="text"]::placeholder {
     margin-bottom: 70px;
 }
 
-/* styled id named footer-right, set width, floated it to the right, set margin-top, set margin-bottom, added some padding, set font-size */
+/* styled id named footer-right, set width, floated it to the right, set margin-top, set margin-right, added some padding, set font-size */
 #footer-right {
     /* border: 1px solid red; */
     width: 20%;
@@ -448,7 +446,7 @@ span#footer-brand {
     position: relative;
 }
 
-/* styled id named h1-footer, set position to absolute, set left, set bottom */
+/* styled id named h1-footer, set position to relative, set left, set bottom */
 #h1-footer {
     position: relative;
     left: 65px;
@@ -475,7 +473,7 @@ img.social-icon {
 
 @media screen and (max-width: 1440px) {
 
-    /* styled anchor elements with id quote */
+    /* styled anchor element with id quote */
     a#quote {
         margin-left: 150px;
         /* border: 1px solid red; */
@@ -488,39 +486,39 @@ img.social-icon {
         right: 50px;
     }
 
-    /* set the position of div with id navigation */
+    /* set the margin-left of div with id navigation */
     div#navigation {
         margin-left: 16%;
         /* border: 1px solid green; */
     }
 
-    /* styled id named analytics - set width, margin-top, font-size, margin-left, letter-spacing, and font-weight */
+    /* styled id named analytics - set width, font-size */
     #analytics {
         /* border: 1px solid red; */
         width: 45%;
         font-size: 35px;
     }
 
-    /* styled image with an id named curved-arrow */
+    /* styled image with id named curved-arrow */
     img#curved-arrow {
         width: 450px;
         margin-left: 25%;
         /* border: 1px solid black; */
     }
 
-    /* styled h5s - set font-size, set font-weight, set text-align */
+    /* styled h5s - set margin-left */
     h5 {
         /* border: 1px solid black; */
         margin-left: 15%;
     }
 
-    /* styled form element - set width, set margin, added some padding to the left, and set the height */
+    /* styled form element - changed padding to the left */
     form {
         /* border: 1px solid red; */
         padding-left: 140px;
     }
 
-    /* styled span with id named footer-brand, set border, set width, set height, set display, added border radius, set margin-left, set margin-right, set margin-top, and set position to relative */
+    /* styled span with id named footer-brand, set margin-left */
     span#footer-brand {
         margin-left: -605px;
     }
